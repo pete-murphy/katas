@@ -1,8 +1,8 @@
 module.exports = function(wallaby) {
   return {
-    files: ["*/*.js", "!*/*.spec.js"],
+    files: ["*/**/*.js", "!*/**/*.spec.js"],
 
-    tests: ["*/*.spec.js"],
+    tests: ["*/**/*.spec.js"],
 
     testFramework: "tape",
 
