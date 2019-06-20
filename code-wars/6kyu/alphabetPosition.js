@@ -1,4 +1,4 @@
-const toCharCode = c => c.toUpperCase().charCodeAt() - 66;
+const toCharCode = c => c.toUpperCase().charCodeAt() - 64;
 
 const isChar = x => /[a-z]/i.test(x);
 
