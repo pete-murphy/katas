@@ -7,25 +7,13 @@
   "extends": [
     "prettier"
   ],
-  "globals": {
-    "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly"
-  },
-  "parserOptions": {
-    "ecmaVersion": 2018,
-    "sourceType": "module"
-  },
+  "parser": "@typescript-eslint/parser",
   "plugins": [
-    "prettier"
+    "prettier",
+    "@typescript-eslint"
   ],
   "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "semi": true,
-        "singleQuote": false,
-        "printWidth": 80
-      }
-    ]
+    "prettier/prettier": "error",
+    "@typescript-eslint/rule-name": "error"
   }
 }
